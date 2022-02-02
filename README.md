@@ -1,4 +1,18 @@
-# Proyecto
+## Prueba
+* Hora de inicio: 7:40 pm
+* Hora de finalización: 10:40 pm
+* El proyecto completo se encuentra en la carpeta _build junto a la copia de la base de datos
+* Se realizo la exportacion de todas las configuraciones para un mejor despliegle en ambiente
+
+> Nota: El proyecto no contempla estilos, ya que no se cuenta con un diseño previo aprobado, se realiza la creación del sub-theme y twig para posterior maquetación 
+
+## Herramientas
+* Drupal 9.3.3
+* Composer
+* Drush
+* Git (develop - main)
+
+## Proyecto
 
 Realizar la implementación de un portal web de tipo One page para una empresa que ofrezca servicios de construcción de casas que tenga los siguientes componentes:
 Secciones:
