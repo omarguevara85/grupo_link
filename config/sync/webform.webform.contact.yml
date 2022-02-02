@@ -17,26 +17,50 @@ id: contact
 title: Contact
 description: 'Basic email contact webform.'
 category: ''
-elements: |
+elements: |-
   name:
-    '#title': 'Your Name'
     '#type': textfield
+    '#title': Nombres
     '#required': true
+    '#required_error': 'Este campo es obligatorio'
+    '#counter_type': character
+    '#counter_minimum': 5
+    '#counter_maximum': 60
+    '#counter_maximum_message': 'Debe tener un máximo de 60 caracteres'
     '#default_value': '[current-user:display-name]'
-  email:
-    '#title': 'Your Email'
-    '#type': email
-    '#required': true
-    '#default_value': '[current-user:mail]'
-  subject:
-    '#title': Subject
+  lastname:
     '#type': textfield
+    '#title': Apellido
     '#required': true
-    '#test': 'Testing contact webform from [site:name]'
+    '#required_error': 'Este campo es obligatorio'
+    '#counter_type': character
+    '#counter_minimum': 5
+    '#counter_maximum': 60
+    '#counter_maximum_message': 'Debe tener un máximo de 60 caracteres'
+  email:
+    '#type': email
+    '#title': 'Correo electrónico'
+    '#required': true
+    '#required_error': 'Este campo es obligatorio'
+    '#default_value': '[current-user:mail]'
+  phone:
+    '#type': tel
+    '#title': Teléfono
+    '#required': true
+    '#required_error': 'Este campo es obligatorio'
+    '#international': true
+    '#international_initial_country': CO
+    '#international_preferred_countries':
+      - CO
   message:
-    '#title': Message
     '#type': textarea
+    '#title': Mensaje
     '#required': true
+    '#required_error': 'Este campo es obligatorio'
+    '#counter_type': character
+    '#counter_minimum': 5
+    '#counter_maximum': 100
+    '#counter_maximum_message': 'Debe tener un máximo de 100 caracteres'
     '#test': 'Please ignore this email.'
   actions:
     '#type': webform_actions

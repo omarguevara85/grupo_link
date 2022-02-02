@@ -68,4 +68,18 @@ layout:
               class: ''
               style: ''
               data: ''
+      58062210-f05a-4560-a443-bedd26fe99f1:
+        uuid: 58062210-f05a-4560-a443-bedd26fe99f1
+        region: content
+        configuration:
+          id: webform_block
+          label: Contacto
+          label_display: visible
+          provider: webform
+          context_mapping: {  }
+          webform_id: contact
+          default_data: ''
+          redirect: false
+        weight: 3
+        additional: {  }
     third_party_settings: {  }
