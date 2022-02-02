@@ -1,0 +1,11 @@
+uuid: 58a7657b-ee8b-4504-861e-82137ea6579d
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.benefit
+id: node.benefit
+target_entity_type_id: node
+target_bundle: benefit
+default_langcode: site_default
+language_alterable: false

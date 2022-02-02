@@ -1,0 +1,17 @@
+uuid: 89b2853a-776f-4a5a-8b06-bb8de649f677
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Proyectos
+type: project
+description: 'Use Proyectos for your static content type Proyectos'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,18 @@
+uuid: db64f899-0d2b-46e7-af14-8b5f66e17edd
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.benefit
+id: node.benefit.title
+field_name: title
+entity_type: node
+bundle: benefit
+label: Beneficio
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,5 +1,5 @@
 uuid: 509e7353-b1cf-46b5-b1b3-14cccd651827
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
@@ -13,13 +13,13 @@ id: node.page.body
 field_name: body
 entity_type: node
 bundle: page
-label: Body
+label: Descripción
 description: ''
-required: false
+required: true
 translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  display_summary: true
+  display_summary: false
   required_summary: false
 field_type: text_with_summary

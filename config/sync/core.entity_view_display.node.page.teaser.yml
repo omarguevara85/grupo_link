@@ -1,10 +1,13 @@
 uuid: 6121dcd7-0152-466e-84a2-a884a8b6ef35
-langcode: en
+langcode: es
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_yoast_seo
+    - field.field.node.page.layout_selection
     - node.type.page
   module:
     - text
@@ -28,4 +31,7 @@ content:
     weight: 101
     region: content
 hidden:
+  field_meta_tags: true
+  field_yoast_seo: true
   langcode: true
+  layout_selection: true

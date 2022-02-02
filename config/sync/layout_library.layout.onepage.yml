@@ -1,0 +1,101 @@
+uuid: 11a530b3-58d3-4564-ac01-15823387378b
+langcode: es
+status: true
+dependencies: {  }
+id: onepage
+label: OnePage
+targetEntityType: node
+targetBundle: page
+layout:
+  -
+    layout_id: layout_onecol
+    layout_settings:
+      label: main_content
+      context_mapping: {  }
+    components:
+      631a45f6-f146-45a6-87d3-d8ea3caea150:
+        uuid: 631a45f6-f146-45a6-87d3-d8ea3caea150
+        region: content
+        configuration:
+          id: 'views_block:slideshow-block_1'
+          label: ''
+          label_display: '0'
+          provider: views
+          context_mapping: {  }
+          views_label: ''
+          items_per_page: none
+        weight: 0
+        additional: {  }
+      24ab71dd-f719-4c1e-9634-5fab4a238c1f:
+        uuid: 24ab71dd-f719-4c1e-9634-5fab4a238c1f
+        region: content
+        configuration:
+          id: 'views_block:project-block_1'
+          label: Proyectos
+          label_display: visible
+          provider: views
+          context_mapping: {  }
+          views_label: Proyectos
+          items_per_page: none
+        weight: 1
+        additional:
+          component_attributes:
+            block_attributes:
+              id: project
+              class: ''
+              style: ''
+              data: ''
+            block_title_attributes:
+              id: ''
+              class: ''
+              style: ''
+              data: ''
+            block_content_attributes:
+              id: ''
+              class: ''
+              style: ''
+              data: ''
+      6ed1d94c-f83f-4ef5-b98f-183e71b49b40:
+        uuid: 6ed1d94c-f83f-4ef5-b98f-183e71b49b40
+        region: content
+        configuration:
+          id: 'views_block:benefit-block_1'
+          label: Beneficios
+          label_display: visible
+          provider: views
+          context_mapping: {  }
+          views_label: Beneficios
+          items_per_page: none
+        weight: 2
+        additional:
+          component_attributes:
+            block_attributes:
+              id: benefit
+              class: ''
+              style: 'background-color:#4073E3;'
+              data: ''
+            block_title_attributes:
+              id: ''
+              class: ''
+              style: ''
+              data: ''
+            block_content_attributes:
+              id: ''
+              class: ''
+              style: ''
+              data: ''
+      310ddd45-1930-4a71-b98c-31e6c1da0ad0:
+        uuid: 310ddd45-1930-4a71-b98c-31e6c1da0ad0
+        region: content
+        configuration:
+          id: webform_block
+          label: Contacto
+          label_display: visible
+          provider: webform
+          context_mapping: {  }
+          webform_id: contact
+          default_data: ''
+          redirect: false
+        weight: 3
+        additional: {  }
+    third_party_settings: {  }

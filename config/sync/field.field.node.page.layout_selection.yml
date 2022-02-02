@@ -1,0 +1,21 @@
+uuid: 13d822ed-12b8-47f4-95fe-dade4d934fe3
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_selection
+    - node.type.page
+id: node.page.layout_selection
+field_name: layout_selection
+entity_type: node
+bundle: page
+label: Diseño
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: layout_library
+  handler_settings: {  }
+field_type: entity_reference

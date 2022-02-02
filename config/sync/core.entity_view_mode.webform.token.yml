@@ -1,0 +1,10 @@
+uuid: f6ff3568-8eea-4901-8f6c-a5385a905f64
+langcode: es
+status: true
+dependencies:
+  module:
+    - webform
+id: webform.token
+label: Comodín
+targetEntityType: webform
+cache: true

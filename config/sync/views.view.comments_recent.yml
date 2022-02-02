@@ -1,5 +1,5 @@
 uuid: c2da68cd-66cc-476d-a4e6-a6e5ebedeb6c
-langcode: en
+langcode: es
 status: true
 dependencies:
   module:
@@ -18,7 +18,7 @@ base_field: cid
 display:
   default:
     id: default
-    display_title: Default
+    display_title: 'Por defecto'
     display_plugin: default
     position: 0
     display_options:
