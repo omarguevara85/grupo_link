@@ -38,7 +38,23 @@ layout:
           views_label: Proyectos
           items_per_page: none
         weight: 1
-        additional: {  }
+        additional:
+          component_attributes:
+            block_attributes:
+              id: project
+              class: ''
+              style: ''
+              data: ''
+            block_title_attributes:
+              id: ''
+              class: ''
+              style: ''
+              data: ''
+            block_content_attributes:
+              id: ''
+              class: ''
+              style: ''
+              data: ''
       6ed1d94c-f83f-4ef5-b98f-183e71b49b40:
         uuid: 6ed1d94c-f83f-4ef5-b98f-183e71b49b40
         region: content
@@ -54,7 +70,7 @@ layout:
         additional:
           component_attributes:
             block_attributes:
-              id: ''
+              id: benefit
               class: ''
               style: 'background-color:#4073E3;'
               data: ''
@@ -68,8 +84,8 @@ layout:
               class: ''
               style: ''
               data: ''
-      58062210-f05a-4560-a443-bedd26fe99f1:
-        uuid: 58062210-f05a-4560-a443-bedd26fe99f1
+      310ddd45-1930-4a71-b98c-31e6c1da0ad0:
+        uuid: 310ddd45-1930-4a71-b98c-31e6c1da0ad0
         region: content
         configuration:
           id: webform_block
