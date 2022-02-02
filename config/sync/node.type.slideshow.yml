@@ -1,0 +1,17 @@
+uuid: 5c9f9c67-dc6c-4417-8702-3ee28df7c0ee
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Slideshow
+type: slideshow
+description: 'Use Slideshow for your static content type Slideshow'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
