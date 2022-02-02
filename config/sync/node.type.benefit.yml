@@ -1,0 +1,17 @@
+uuid: 622b44d9-4c67-4b68-bee1-806bb8d0e89b
+langcode: es
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Beneficios
+type: benefit
+description: 'Use Beneficios for your static content type Beneficios'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,40 @@
+uuid: 6c396c0b-4f8b-4c35-82b4-524d9276b451
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.field.node.benefit.body
+    - field.field.node.benefit.field_image
+    - node.type.benefit
+  module:
+    - image
+    - text
+    - user
+id: node.benefit.default
+targetEntityType: node
+bundle: benefit
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
