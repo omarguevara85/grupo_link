@@ -1,0 +1,9 @@
+uuid: 11a530b3-58d3-4564-ac01-15823387378b
+langcode: es
+status: true
+dependencies: {  }
+id: onepage
+label: OnePage
+targetEntityType: node
+targetBundle: page
+layout: {  }
