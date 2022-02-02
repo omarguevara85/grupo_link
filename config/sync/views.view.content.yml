@@ -11,7 +11,7 @@ dependencies:
 _core:
   default_config_hash: vBKWYGGDoAX-tFd1JErB8tZLSxx3lJ0foouVsgpcbB4
 id: content
-label: Contenido
+label: Content
 module: node
 description: 'Encontrar y administrar contenido.'
 tag: default
@@ -24,7 +24,7 @@ display:
     display_plugin: default
     position: 0
     display_options:
-      title: Contenido
+      title: Content
       fields:
         node_bulk_form:
           id: node_bulk_form
@@ -603,14 +603,14 @@ display:
       path: admin/content/node
       menu:
         type: 'default tab'
-        title: Contenido
+        title: Content
         description: ''
         weight: -10
         menu_name: admin
         context: ''
       tab_options:
         type: normal
-        title: Contenido
+        title: Content
         description: 'Encuentre y gestione el contenido'
         weight: -10
         menu_name: admin

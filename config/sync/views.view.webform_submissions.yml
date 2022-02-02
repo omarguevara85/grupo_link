@@ -300,7 +300,7 @@ display:
           admin_label: ''
           entity_type: webform_submission
           plugin_id: entity_link
-          label: Operations
+          label: Operaciones
           exclude: false
           alter:
             alter_text: false
@@ -354,8 +354,8 @@ display:
           tags:
             next: ››
             previous: ‹‹
-            first: '« First'
-            last: 'Last »'
+            first: '« Primero'
+            last: 'Último »'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -370,8 +370,8 @@ display:
         options:
           submit_button: Apply
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Restablecer
+          exposed_sorts_label: 'Ordenar por'
           expose_sort_order: true
           sort_asc_label: Asc
           sort_desc_label: Desc
@@ -1131,7 +1131,7 @@ display:
           entity_type: null
           entity_field: null
           plugin_id: entity_operations
-          label: Operations
+          label: Operaciones
           exclude: false
           alter:
             alter_text: false
@@ -2052,7 +2052,7 @@ display:
           admin_label: ''
           entity_type: webform_submission
           plugin_id: entity_link
-          label: Operations
+          label: Operaciones
           exclude: false
           alter:
             alter_text: false
@@ -2105,7 +2105,7 @@ display:
           admin_label: ''
           entity_type: webform_submission
           plugin_id: entity_link_edit
-          label: Operations
+          label: Operaciones
           exclude: false
           alter:
             alter_text: false
@@ -2886,7 +2886,7 @@ display:
           admin_label: ''
           entity_type: webform_submission
           plugin_id: entity_link
-          label: Operations
+          label: Operaciones
           exclude: false
           alter:
             alter_text: false
