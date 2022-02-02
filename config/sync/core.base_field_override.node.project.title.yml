@@ -1,0 +1,18 @@
+uuid: 1580befb-d0f1-4056-b611-436d61a0e2d5
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.project
+id: node.project.title
+field_name: title
+entity_type: node
+bundle: project
+label: Proyecto
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

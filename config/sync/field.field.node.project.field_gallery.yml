@@ -1,0 +1,29 @@
+uuid: ac9da73a-3894-47f1-9741-b0809581539a
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_gallery
+    - media.type.image
+    - node.type.project
+id: node.project.field_gallery
+field_name: field_gallery
+entity_type: node
+bundle: project
+label: Galleria
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

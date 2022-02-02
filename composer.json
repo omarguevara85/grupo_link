@@ -30,6 +30,7 @@
         "drupal/layout_library": "^1.0@beta",
         "drupal/lazy": "^3.11",
         "drupal/paragraphs": "^1.12",
+        "drupal/quick_node_clone": "^1.14",
         "drupal/views_bootstrap": "^4.3",
         "drupal/views_slideshow": "^4.8",
         "drupal/webform": "^6.1",

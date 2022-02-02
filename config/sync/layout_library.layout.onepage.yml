@@ -26,4 +26,17 @@ layout:
           items_per_page: none
         weight: 0
         additional: {  }
+      24ab71dd-f719-4c1e-9634-5fab4a238c1f:
+        uuid: 24ab71dd-f719-4c1e-9634-5fab4a238c1f
+        region: content
+        configuration:
+          id: 'views_block:project-block_1'
+          label: Proyectos
+          label_display: visible
+          provider: views
+          context_mapping: {  }
+          views_label: Proyectos
+          items_per_page: none
+        weight: 1
+        additional: {  }
     third_party_settings: {  }
