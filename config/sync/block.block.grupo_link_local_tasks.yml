@@ -1,0 +1,22 @@
+uuid: ba65fe6b-ca13-4c54-a84d-79784ec37367
+langcode: es
+status: true
+dependencies:
+  theme:
+    - grupo_link
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: grupo_link_local_tasks
+theme: grupo_link
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Pestañas
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

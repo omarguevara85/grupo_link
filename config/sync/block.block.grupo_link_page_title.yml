@@ -1,0 +1,20 @@
+uuid: 3360a64d-aae4-4e46-a378-988fb89e9641
+langcode: es
+status: true
+dependencies:
+  theme:
+    - grupo_link
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: grupo_link_page_title
+theme: grupo_link
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  label_display: '0'
+  provider: core
+visibility: {  }

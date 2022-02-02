@@ -1,0 +1,22 @@
+uuid: e5ffe55c-7226-4cc0-b1e7-23f322ca5a85
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - grupo_link
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: grupo_link_help
+theme: grupo_link
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 2ac9dca2-52ed-4331-8599-9d8a17b87c60
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - grupo_link
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: grupo_link_messages
+theme: grupo_link
+region: header
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Mensajes de estado'
+  label_display: '0'
+  provider: system
+visibility: {  }

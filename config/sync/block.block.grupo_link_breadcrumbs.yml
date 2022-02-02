@@ -1,0 +1,22 @@
+uuid: c7240071-15a4-4ffa-9c73-4b91bab452c8
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - grupo_link
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: grupo_link_breadcrumbs
+theme: grupo_link
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Enlaces de ayuda a la navegación'
+  label_display: '0'
+  provider: system
+visibility: {  }
