@@ -16,19 +16,40 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/admin_toolbar": "^3.1",
+        "drupal/backup_migrate": "^5.0",
+        "drupal/better_exposed_filters": "^5.0",
+        "drupal/bootstrap4": "^2.1",
         "drupal/core-composer-scaffold": "^9.3",
         "drupal/core-recommended": "^9.3",
-        "drush/drush": "^10.6"
+        "drupal/devel": "^4.1",
+        "drupal/ds": "^3.13",
+        "drupal/gin": "^3.0@alpha",
+        "drupal/gin_login": "^1.0",
+        "drupal/layout_builder_component_attributes": "^2.0",
+        "drupal/layout_library": "^1.0@beta",
+        "drupal/lazy": "^3.11",
+        "drupal/paragraphs": "^1.12",
+        "drupal/views_bootstrap": "^4.3",
+        "drupal/webform": "^6.1",
+        "drupal/yoast_seo": "^1.7",
+        "drush/drush": "^10.6",
+        "wikimedia/composer-merge-plugin": "^2.0"
     },
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "alpha",
     "prefer-stable": true,
     "config": {
         "sort-packages": true
     },
     "extra": {
+        "merge-plugin": {
+            "include": [
+                "web/modules/contrib/webform/composer.libraries.json"
+            ]
+        },
         "drupal-scaffold": {
             "locations": {
                 "web-root": "web/"
