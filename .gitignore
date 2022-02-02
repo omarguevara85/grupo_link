@@ -87,7 +87,6 @@ web/sites/*/services*.yml
 
 # Ignore .env files as they are personal
 /.env
-*.sql
 *.psd
 *.tar
 *.gz
